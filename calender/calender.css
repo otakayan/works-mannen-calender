@@ -1,0 +1,171 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #24292e;
+  font-family: "Sawarabi Gothic";
+}
+
+a {
+  text-decoration: none;
+  color: #24292e;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+#header {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 4%;
+  height: 170px;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+#header ul li:not(:first-child) {
+  margin-left: 30px;
+}
+#header ul li {
+  font-size: 0.9rem;
+}
+#header ul li a {
+  color: #24292e;
+  transition: all 0.3s;
+}
+#header ul li a:hover {
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #24292e;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 10px 10px 10px;
+  text-align: center;
+}
+
+.wrapper {
+  background: #ffffff;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.calender table, .calender td {
+  border: 1px solid black;
+}
+.calender table {
+  border-collapse: collapse;
+}
+.calender table {
+  margin: 0 auto;
+  max-width: 800px;
+  font-weight: bold;
+}
+.calender tbody > tr > td:first-child {
+  color: red;
+}
+.calender tbody > tr > td:last-child {
+  color: blue;
+}
+.calender tbody > tr:first-child {
+  background-color: #C0C0C0;
+}
+.calender tbody td {
+  width: 70px;
+  height: 40px;
+}
+
+.select_wrapper {
+  display: flex;
+  width: 420px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.select_wrapper .pulldown:first-child {
+  margin-right: 20px;
+}
+
+.wrapper select {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px 12px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.btn_container .prev, .btn_container .next {
+  width: 50px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 4px gray;
+}
+.btn_container .prev {
+  margin-right: 15px;
+}
+
+.midashi {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.btn_container {
+  display: flex;
+  max-width: 420px;
+  margin: 0 auto 20px;
+}
+
+.desc {
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+.desc .desc_left {
+  width: 49%;
+}
+.desc .desc_right {
+  width: 49%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.desc_box {
+  text-align: left;
+}
+.desc_box .desc_title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.desc_box a {
+  text-decoration: underline;
+}
+.desc_box a:hover {
+  color: red;
+}/*# sourceMappingURL=calender.css.map */
